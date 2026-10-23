@@ -5,7 +5,7 @@ const cors = require('cors');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const DEVICE_KEY = process.env.DEVICE_KEY || 'DEVICE_KEY';        // la usa el Arduino
+const DEVICE_KEY = process.env.DEVICE_KEY || 'WEB_ORIGIN';        // la usa el Arduino
 const WEB_ORIGIN = process.env.WEB_ORIGIN || 'https://lopesolano.github.io/';                          // ej: https://tuusuario.github.io
 const DEVICE_TIMEOUT_MS = 5000;                                           // sin sync = dispositivo offline
 
