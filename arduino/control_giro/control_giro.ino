@@ -17,7 +17,7 @@ const char* WIFI_SSID = "TIGO-4290";
 const char* WIFI_PASS = "704FB8294290";
 const char* API_HOST  = "semita-api.onrender.com";   // sin https://
 const int   API_PORT  = 443;                     // 443 = HTTPS
-const char* API_KEY   = "DEVICE_KEY";     // igual que DEVICE_KEY en la API
+const char* API_KEY   = "WEB_ORIGIN";     // igual que DEVICE_KEY en la API
 const int   MOTOR_SPEED = 200;                   // 0-255
 // -----------------------------------
 
